@@ -13,7 +13,7 @@ setup(
     packages=find_packages(exclude=['contrib', 'docs', 'tests*']),
     include_package_data=True,
     install_requires=[
-        'urllib3<1.25',
+        'urllib3',
         'argcomplete',
         'boto3',
         'requests',
